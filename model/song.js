@@ -12,6 +12,10 @@ const SongSchema = mongoose.Schema(
     description: {
       type: String,
       default: ""
+    },
+    image :{
+      type: String,
+      default:""
     }
     
   },
