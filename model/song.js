@@ -16,6 +16,22 @@ const SongSchema = mongoose.Schema(
     image :{
       type: String,
       default:""
+    },
+    allView: {
+      type : String,
+      default : "0"
+    },
+    duration : {
+      type : String,
+      default:"0.0"
+    },
+    monthlyView: {
+      type: String,
+      default:0
+    },
+    album :{
+      type : String,
+      default: ""
     }
     
   },
